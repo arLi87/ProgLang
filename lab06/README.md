@@ -76,7 +76,7 @@ int main() {
 
 int main() {
     double x = 0;
-    constexpr auto Pi = std::acos(x) * 2; // Ошибка компиляции
+    constexpr auto Pi = std::acos(x) * 2;
     std::cout << Pi << std::endl;
     return 0;
 }
@@ -273,7 +273,7 @@ print(b, id(b))
 ```
 a = 'Hello'
 b1, b2 = a, a[:]
-print(b1 is b2)  # Выведет True
+print(b1 is b2)
 ```
 ![1](8/08.png)
 
